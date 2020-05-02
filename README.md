@@ -138,7 +138,7 @@ The last model that I worked on was a decision tree classifier.
 ADD IMAGES
 ![Image description](https://github.com/JohnRegis/practicum2/blob/master/28.PNG)
 ![Image description](https://github.com/JohnRegis/practicum2/blob/master/29.PNG)
-![Image description](https://github.com/JohnRegis/practicum2/blob/master/30.PNG)
+![Image description](https://github.com/JohnRegis/Practicum2/blob/master/30.png)
 ![Image description](https://github.com/JohnRegis/practicum2/blob/master/31.PNG)
 ![Image description](https://github.com/JohnRegis/practicum2/blob/master/32.PNG)
 
@@ -165,7 +165,7 @@ Here we are trying different hyper parameters to see if we can increase the mode
 
 Here we can see that this model still has the same accuracy score even though it is changed the best parameters used.  Even after changing some of the parameters our second of hyper parameters, we get the same accuracy score as our first attempt of hyper parameters.  It also appears that the confusion Matrix from the first hyper model is the same as the second hyper model.
 
-##Conclusion
+## Conclusion:
 
 After running 3 different models it turns out that the best mode for predicting if a breast tumor was malignant or benign turns out to the be Random Forest Classifier with an accuracy score of 94.737% with a Cohen Kappa score of 89.07% which is between 0.81 – 0.99 therefor we can see that this model has a near perfect agreement. In this model there were 6 patients that were misdiagnosed from our model. 2 patients were told that their tumors were cancer when they were actually benign and there were 4 patients that were told their tumors were benign when they were in fact cancer.
 
