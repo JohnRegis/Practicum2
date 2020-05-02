@@ -66,9 +66,11 @@ The first data analysis that I did was to create a heat map: _ = sns.heatmap(df.
 ![Image description](https://github.com/JohnRegis/practicum2/blob/master/6.PNG)
 
 Next, I looked at a pearsoncorr to see the correlations of attributes to the diagnosis.
+
 ![Image description](https://github.com/JohnRegis/practicum2/blob/master/7.PNG)
 
 I then did the Spearmancorr to see if the correlations of attributes to the diagnosis were different than the pearsoncorr.
+
 ![Image description](https://github.com/JohnRegis/practicum2/blob/master/8.PNG)
 
 I then created a histogram for all of the features.
