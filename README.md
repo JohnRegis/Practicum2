@@ -83,11 +83,13 @@ The next thing that I did was to look at a scatter plot of the most important fe
 
 From the heatmaps above it appears that the true most important feature with an average correlation score of 0.7896165 is perimeter_worst. 
 The here is a scatter plot of the most important feature on predicting diagnosis:
+
 ![Image description](https://github.com/JohnRegis/practicum2/blob/master/13.PNG)
 
 From this simple plot we can see that the larger the perimeter at its worst the more likely it is to be cancer.  You can see that there is quite a bit of overlap from around 75 to around 125, in these cases there is a lot of overlap between cancer or not cancer.  For this reason, we cannot just go off of the perimeter at its worst to determine if the tumor is cancer
 
 The here is a scatter plot of the one of the least important features on predicting diagnosis:
+
 ![Image description](https://github.com/JohnRegis/practicum2/blob/master/14.PNG)
 
 From this simple plot we can see that not all of the attributes are useful in identifying if the tumor is cancer or now going off of the fractal dimension worst we can see that the majority of this data overlaps and does not help us identify if the tumor is cancer or not.
@@ -101,7 +103,7 @@ The first type of modeling that I did was a simple KNeighborsRegressor I then di
 ![Image description](https://github.com/JohnRegis/practicum2/blob/master/17.PNG)
 
 At this point I realized that I still had ID included in the attributes and because that is a unique number for each patient I think that might be throwing off my total, so here I am about to rerun all of my data from above to see if the K Neighbors Regressor improves with the removal of ID.  Because the ID is random regardless of the outcome of the tumor, we know the accuracy will increase.
-ADD IMAGES
+
 ![Image description](https://github.com/JohnRegis/practicum2/blob/master/18.PNG)
 
 ![Image description](https://github.com/JohnRegis/practicum2/blob/master/19.PNG)
@@ -162,6 +164,7 @@ Here we are trying different hyper parameters to see if we can increase the mode
 Here we can see that this model still has the same accuracy score even though it is changed the best parameters used.  Even after changing some of the parameters our second of hyper parameters, we get the same accuracy score as our first attempt of hyper parameters.  It also appears that the confusion Matrix from the first hyper model is the same as the second hyper model.
 
 ##Conclusion
+
 After running 3 different models it turns out that the best mode for predicting if a breast tumor was malignant or benign turns out to the be Random Forest Classifier with an accuracy score of 94.737% with a Cohen Kappa score of 89.07% which is between 0.81 – 0.99 therefor we can see that this model has a near perfect agreement. In this model there were 6 patients that were misdiagnosed from our model. 2 patients were told that their tumors were cancer when they were actually benign and there were 4 patients that were told their tumors were benign when they were in fact cancer.
 
 A nearly 95% accuracy score for most models is pretty good but since this is dealing with medical data this is not nearly good enough.
