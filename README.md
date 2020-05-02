@@ -195,3 +195,29 @@ To try and increase the model’s accuracy score I reran the Random Forest Class
 
 There is additional work that would need to be done to further perfect this model before it could ever be used in the medical field. The main thing would be to have a larger data set to test on because with how small the data set is, we are limited. I think that there is the potential for addition information of the people come in with the tumors that could be beneficial in better predicting if the tumor is cancer but that would change the dataset overall. The way that the dataset is set up is to solely predict off of the tumor if it is cancer or not but the data set that I am proposing would take the individual into account. I think that a sister data set of this could be useful by including items such as: Age, sex, history of cancer (of any type), history of smoking, history of drug use, etc. Once again that would be a similar dataset but in essence would completely be different from this dataset, however I think that additional attributes could be useful in identifying with better accuracy if a breast tumor was malignant or benign. Due to HIPAA Laws it is hard to have a medical dataset with a good number of detailed attributes because the details cannot in anyway identify who the patient is. I am not saying that there is anything wrong with the HIPAA Laws, I agree with them, I am just stating that the further study model that I am proposing hypothetically would be hard to obtain.
 
+
+## Work Cited:
+Decision Tree Classification in Python. (n.d.). Retrieved from    https://www.datacamp.com/community/tutorials/decision-tree-classification-python
+
+Is there a simple way to change a column of yes/no to 1/0 in a Pandas dataframe? (n.d.). Retrieved   
+  from https://stackoverflow.com/questions/40901770/is-there-a-simple-way-to-change-a-column-of-
+  yes-no-to-1-0-in-a-pandas-dataframe
+
+Koehrsen, W. (2018, January 10). Hyperparameter Tuning the Random Forest in Python. Retrieved from 
+  https://towardsdatascience.com/hyperparameter-tuning-the-random-forest-in-python-using-scikit-
+  learn-28d2aa77dd74?gi=d6ab536d8deb
+ 
+Magiya, J. (2019, November 23). Pearson Coefficient of Correlation with Python. Retrieved from 
+  https://levelup.gitconnected.com/pearson-coefficient-of-correlation-using-pandas-
+  ca68ce678c04
+
+numpy.linspace¶. (n.d.). Retrieved from https://docs.scipy.org/doc/numpy-
+  1.10.0/reference/generated/numpy.linspace.html
+
+sklearn.model_selection.GridSearchCV¶. (n.d.). Retrieved from https://scikit- 
+  learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html
+
+Stephanie. (2017, October 12). Cohen's Kappa Statistic. Retrieved from 
+  https://www.statisticshowto.com/cohens-kappa-statistic/
+
+
