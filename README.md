@@ -42,3 +42,5 @@ All feature values are recoded with four significant digits.
 
 ## Data Collection and Preparation:
 I pulled this data from https://www.kaggle.com/uciml/breast-cancer-wisconsin-data and pulled this into a data frame to analyze it in python.  The amount of data cleaning looks to be minimal but there are a few things that we need to do. 
+
+![Image description](https://github.com/JohnRegis/practicum2/blob/master/1.PNG)
