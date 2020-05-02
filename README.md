@@ -77,9 +77,9 @@ I then created a histogram for all of the features.
 
 Then I wanted to see a scatter plot of all of the attributes on how they relate to the diagnosis.  This way we can see how attributes relation to other attributes relate to the diagnosis of the tumor.
 
-![Image description](https://github.com/JohnRegis/Practicum2/blob/master/11.png)
+![Image description](https://github.com/JohnRegis/practicum2/blob/master/11.PNG)
 
-![Image description](https://github.com/JohnRegis/practicum2/blob/master/12.PNG)
+![Image description](https://github.com/JohnRegis/Practicum2/blob/master/12.png)
 
 The next thing that I did was to look at a scatter plot of the most important feature and one of the least important features to see if I could visualize why the heat map has decided to pick these features. 
 
