@@ -70,11 +70,13 @@ I then did the Spearmancorr to see if the correlations of attributes to the diag
 ![Image description](https://github.com/JohnRegis/practicum2/blob/master/8.PNG)
 
 I then created a histogram for all of the features.
+
 ![Image description](https://github.com/JohnRegis/practicum2/blob/master/9.PNG)
 
 ![Image description](https://github.com/JohnRegis/practicum2/blob/master/10.PNG)
 
 Then I wanted to see a scatter plot of all of the attributes on how they relate to the diagnosis.  This way we can see how attributes relation to other attributes relate to the diagnosis of the tumor.
+
 ![Image description](https://github.com/JohnRegis/practicum2/blob/master/11.PNG)
 
 ![Image description](https://github.com/JohnRegis/practicum2/blob/master/12.PNG)
