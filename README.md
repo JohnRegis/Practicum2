@@ -1,13 +1,17 @@
 # Practicum2
 MSDS 696
+
 ## Objective:
+
 The purpose of this study is to identify if we can accurately predict is a breast tumor is malignant or benign with the data collected in this data set.  In the future we might be able to uses models similar to this to help predict the outcome of medical conditions based off of previous information that we have seen in the past.
 
 ## Data:
+
 This data was pulled from https://www.kaggle.com/uciml/breast-cancer-wisconsin-data.  The contains 569 lines of data.  This data is broken down into 32 attributes with one of them being the diagnosis, which we are attempting to predict.  Out of these 569 lines of data, 357 of the diagnosis are benign and 212 are malignant.  This data set is rather small, but we should be able do create a model that is able to accurately predict is the tumor is cancerous or benign.  
 The type of data science task that I used was Classification using supervised learning to determine the diagnosis of the tumor. I will be using the 32 attributes to attempt to identify what attributes are most helpful in determining outcome of the tumor, is it cancerous or not.
 
 ## Attribute Information:
+
 1) ID number 
 
 2) Diagnosis (M = malignant, B = benign)
@@ -100,6 +104,9 @@ The here is a scatter plot of the one of the least important features on predict
 
 From this simple plot we can see that not all of the attributes are useful in identifying if the tumor is cancer or now going off of the fractal dimension worst we can see that the majority of this data overlaps and does not help us identify if the tumor is cancer or not.
 
+
+## Modeling:
+
 The first type of modeling that I did was a simple KNeighborsRegressor I then did a differs to see how far off the guesses (model’s predictions) were from the actuals. Overall, it had the accuracy of 0.7894736842105263.  I did the Cohen Kappa Score for this model to see if this model is due to pure chance, the Cohen Kappa Score is 0.5571382324376821.  With a Cohens Kappa Score between 0.41 – 0.60 we can see that this model has a moderate agreement. This shows that this model is moderately due to the logic of the model and not based off of chance
 
 ![Image description](https://github.com/JohnRegis/practicum2/blob/master/15.PNG)
@@ -140,7 +147,7 @@ Then I ordered it by most important to least.
 ![Image description](https://github.com/JohnRegis/practicum2/blob/master/27.PNG)
 
 The last model that I worked on was a decision tree classifier.
-ADD IMAGES
+
 ![Image description](https://github.com/JohnRegis/practicum2/blob/master/28.PNG)
 
 ![Image description](https://github.com/JohnRegis/practicum2/blob/master/29.PNG)
