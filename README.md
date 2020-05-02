@@ -197,27 +197,28 @@ There is additional work that would need to be done to further perfect this mode
 
 
 ## Work Cited:
-Decision Tree Classification in Python. (n.d.). Retrieved from    https://www.datacamp.com/community/tutorials/decision-tree-classification-python
+Decision Tree Classification in Python. (n.d.). Retrieved from    https://www.datacamp.com/community/tutorials/decision-tree
+    classification-python
 
 Is there a simple way to change a column of yes/no to 1/0 in a Pandas dataframe? (n.d.). Retrieved   
-  from https://stackoverflow.com/questions/40901770/is-there-a-simple-way-to-change-a-column-of-
-  yes-no-to-1-0-in-a-pandas-dataframe
+   from https://stackoverflow.com/questions/40901770/is-there-a-simple-way-to-change-a-column-of-
+   yes-no-to-1-0-in-a-pandas-dataframe
 
 Koehrsen, W. (2018, January 10). Hyperparameter Tuning the Random Forest in Python. Retrieved from 
-  https://towardsdatascience.com/hyperparameter-tuning-the-random-forest-in-python-using-scikit-
-  learn-28d2aa77dd74?gi=d6ab536d8deb
+    https://towardsdatascience.com/hyperparameter-tuning-the-random-forest-in-python-using-scikit-
+    learn-28d2aa77dd74?gi=d6ab536d8deb
  
 Magiya, J. (2019, November 23). Pearson Coefficient of Correlation with Python. Retrieved from 
-  https://levelup.gitconnected.com/pearson-coefficient-of-correlation-using-pandas-
-  ca68ce678c04
+   https://levelup.gitconnected.com/pearson-coefficient-of-correlation-using-pandas-
+   ca68ce678c04
 
 numpy.linspace¶. (n.d.). Retrieved from https://docs.scipy.org/doc/numpy-
-  1.10.0/reference/generated/numpy.linspace.html
+    1.10.0/reference/generated/numpy.linspace.html
 
 sklearn.model_selection.GridSearchCV¶. (n.d.). Retrieved from https://scikit- 
-  learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html
+    learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html
 
 Stephanie. (2017, October 12). Cohen's Kappa Statistic. Retrieved from 
-  https://www.statisticshowto.com/cohens-kappa-statistic/
+    https://www.statisticshowto.com/cohens-kappa-statistic/
 
 
