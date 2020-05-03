@@ -131,7 +131,9 @@ Rerunning a simple K Neighbors Regressor we have an accuracy score of 0.92105263
 
 Next, I did a Random Forest Classifier with an 80% train size and a 20% test size.
 
-![Image description](https://github.com/JohnRegis/practicum2/blob/master/23.PNG)
+![Image description](https://github.com/JohnRegis/practicum2/blob/master/23-1.PNG)
+
+![Image description](https://github.com/JohnRegis/practicum2/blob/master/23-2.PNG)
 
 ![Image description](https://github.com/JohnRegis/practicum2/blob/master/24.PNG)
 
@@ -141,20 +143,20 @@ Next, I did a Random Forest Classifier with an 80% train size and a 20% test siz
 The model score I got for this was 0.9473684210526315 which is better than the K Neighbors Regressor.  The  Cohen Kappa Score is 0.8906999041227229 which is between 0.81 – 0.99 so we can see that this model has a near perfect agreement.  This shows that this model is completely due to the logic of the model and not based off of chance.
 
 Here are the features of importance
-![Image description](https://github.com/JohnRegis/practicum2/blob/master/26.PNG)
+![Image description](https://github.com/JohnRegis/practicum2/blob/master/26-1.PNG)
 
 Then I ordered it by most important to least.
-![Image description](https://github.com/JohnRegis/practicum2/blob/master/27.PNG)
+![Image description](https://github.com/JohnRegis/practicum2/blob/master/27-1.PNG)
 
 The last model that I worked on was a decision tree classifier.
 
-![Image description](https://github.com/JohnRegis/practicum2/blob/master/28.PNG)
+![Image description](https://github.com/JohnRegis/practicum2/blob/master/28-1.PNG)
 
 ![Image description](https://github.com/JohnRegis/practicum2/blob/master/29.PNG)
 
-![Image description](https://github.com/JohnRegis/Practicum2/blob/master/30.png)
+![Image description](https://github.com/JohnRegis/Practicum2/blob/master/30-1.png)
 
-![Image description](https://github.com/JohnRegis/practicum2/blob/master/31.PNG)
+![Image description](https://github.com/JohnRegis/practicum2/blob/master/31-1.PNG)
 
 ![Image description](https://github.com/JohnRegis/practicum2/blob/master/32.PNG)
 
