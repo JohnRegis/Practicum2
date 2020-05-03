@@ -189,7 +189,7 @@ Here we can see that this model still has the same accuracy score even though it
 
 ## Conclusion:
 
-After running 3 different models it turns out that the best mode for predicting if a breast tumor was malignant or benign turns out to the be Random Forest Classifier with an accuracy score of 94.737% with a Cohen Kappa score of 89.07% which is between 0.81 – 0.99 therefor we can see that this model has a near perfect agreement. In this model there were 6 patients that were misdiagnosed from our model. 2 patients were told that their tumors were cancer when they were actually benign and there were 4 patients that were told their tumors were benign when they were in fact cancer.
+After running 3 different models it turns out that the best model for predicting if a breast tumor was malignant or benign turns out to the be Random Forest Classifier with an accuracy score of 94.737% with a Cohen Kappa score of 89.07% which is between 0.81 – 0.99 therefor we can see that this model has a near perfect agreement. In this model there were 6 patients that were misdiagnosed from our model. 2 patients were told that their tumors were cancer when they were actually benign and there were 4 patients that were told their tumors were benign when they were in fact cancer.
 
 A nearly 95% accuracy score for most models is pretty good but since this is dealing with medical data this is not nearly good enough.
 
